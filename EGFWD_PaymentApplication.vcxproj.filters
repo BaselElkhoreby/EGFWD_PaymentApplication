@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Card">
+      <UniqueIdentifier>{97ae1105-f5e4-464b-ae10-df47d1dce175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Terminal">
+      <UniqueIdentifier>{082d16fe-f232-4af3-8585-61ac10d6a652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{adce8970-f020-43fc-926d-bf3c2e842bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserDefined">
+      <UniqueIdentifier>{d3143c5a-b7db-4a6c-949f-06eb3a56d8b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.c">
+      <Filter>Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.c">
+      <Filter>Terminal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>Terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="STD_Types.h">
+      <Filter>UserDefined</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
